@@ -1,0 +1,88 @@
+.chatform{
+  width: 450px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid;
+  border-radius: 15px;
+  border-color:#87ceeb;
+  background-color:#FFFFFF;
+  color: white;
+  padding: 16px 20px;
+  cursor: pointer;
+  opacity: 1.0;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  
+}
+
+.chatcontrol{
+  
+  width: 100%;
+  height: 200px;
+  border-color:#87ceeb;
+    margin-top: 10px;
+
+  
+}
+
+.message {
+  font-size: 1em;
+  font-weight: 400;
+  color: #000;
+}
+
+.timeform {
+  float: left;
+  width: 100%;
+  color: #D3D3D3;
+
+  i {
+    margin-left: 20px;
+  }
+
+  .timestamp{
+    font-size: 0.1px;
+
+  }
+}
+
+.avatar{
+  width: 50px;
+  margin-right: 20px;
+}
+
+.chatlist{
+  height: 400px;
+  overflow-y:  scroll;
+  
+}
+
+.input{
+  width: 100%;
+  padding: 16px 0px;
+  
+}
+.btn1{
+  width: 70%;
+  background-color: #6495ed;
+  float: center;
+   color: white;
+   margin-top: 13px;
+   padding: 8px 0px;
+}
+.btn2{
+  width: 28%;
+  background-color: #6495ed;
+  float: center;
+   color: white;
+   margin-top: 13px;
+   padding: 8px 0px;
+   margin-left: 7px;
+}
+h3 {
+  text-align: center;
+  }
+    button { display: inline; }
+
